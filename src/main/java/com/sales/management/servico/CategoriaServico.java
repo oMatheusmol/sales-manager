@@ -18,6 +18,7 @@ public class CategoriaServico {
     private CategoriaRepositorio categoriaRepositorio;
 
     public Categoria post(Categoria data) {
+        
         return categoriaRepositorio.save(data);
     }
 
